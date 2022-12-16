@@ -22,14 +22,16 @@ article {
     height: 100vh;
     background-color: black;
     color: white;
-    border: 15px solid yellow;
+    border: 20px solid transparent;
+    border-image-source: url("/img/bordaAlerta.PNG");
+    border-image-slice: 50;
+    border-image-repeat:  round;
     padding: 3px;
 }
 
 header {
     font-size: 40px;
     color: yellow;
-    border: 1px solid greenyellow;
 }
 
 nav {
@@ -61,7 +63,6 @@ figure {
 section {
     color: yellow;
     font-size: 23px;
-    border: 1px solid salmon;
 }
 section p{
     padding-top: 25px;
