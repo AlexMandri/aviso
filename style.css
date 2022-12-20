@@ -23,7 +23,7 @@ article {
     background-color: black;
     color: white;
     border: 20px solid transparent;
-    /* border-image-source: url("/img/bordaAlerta.PNG"); */
+    border-image-source: url("bordaAlerta.PNG");
     border-image-slice: 50;
     border-image-repeat:  round;
     padding: 3px;
